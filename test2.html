@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <script src="https://aframe.io/releases/1.4.0/aframe.min.js"></script>
+  </head>
+
+  
+    <body>
+        <a-scene>
+          <a-sky
+            color="#DDEEFF"
+          >
+          </a-sky>
+          <a-box
+            color="#4488FF"
+            position="0 0 0"
+            rotation="0 0 0"
+            animation="property: rotation; to: 360 360 0; dur: 3600; easing: linear; loop: true"
+          >
+          </a-box>
+          <a-camera
+            position="0 0 2"
+          >
+          </a-camera>
+        </a-scene>
+  </body>
+</html>
